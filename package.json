@@ -1,0 +1,17 @@
+{
+  "name": "forbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build" : "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "author": "xtiv",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
