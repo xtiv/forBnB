@@ -9,7 +9,9 @@
 .CardTittle {
     @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
 }
-
+.CardTittleWithNoiceBg {
+    @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white lg:text-black
+}
 .destacadosContainer {
     @apply w-full px-6 h-auto;
 }
